@@ -1,0 +1,136 @@
+* {
+	margin: 0;
+	padding:0;
+box-sizing: border-box;
+
+}
+#simple-menu{
+  text-decoration:none;
+  font-family: 'Rock Salt', cursive;
+}
+body{
+	font-size: 14px;
+
+  
+}
+.bigontainer{
+  background: url("intro-bg.jpg");
+  background-size: cover;
+}
+.intro-header {
+width: 100%;
+padding-top: 50px;
+padding-bottom: 50px;
+text-align: center;
+color: #f8f8f8;
+}
+
+.list-wrap{
+  margin-left: 25%;
+}
+#date,#dateHead{
+	font-family: 'Rock Salt', cursive;
+}
+li {
+
+  list-style-type: none;
+  margin: 5%;
+  font-family: "Raleway", sans-serif;
+  font-weight: bold;
+}
+
+
+.btn-add, .btn-done, .btn-remove, .btn-search {
+  margin-left: 2.5%;
+}
+.title, h2 {
+  font-family: 'Rock Salt', cursive;
+  margin-bottom: 5%;
+}
+.btn-add {
+color: #fff;
+background-color: #428bca;
+border-color: #357ebd;
+}
+.btn-add:hover{
+color: #fff;
+background-color: #3071a9;
+border-color: #285e8e;
+}
+.btn-edit {
+color: #fff;
+background-color: #428bca;
+border-color: #357ebd;
+}
+.btn-edit:hover{
+color: #fff;
+background-color: #3071a9;
+border-color: #285e8e;
+}
+.btn-done {
+color: #fff;
+background-color: #5cb85c;
+border-color: #4cae4c;
+}
+.btn-done:hover{
+color: #fff;
+background-color: #449d44;
+border-color: #398439;
+}
+.btn-remove {
+color: #fff;
+background-color: #d9534f;
+border-color: #d43f3a;
+}
+.btn-remove:hover{
+color: #fff;
+background-color: #c9302c;
+border-color: #ac2925;
+}
+.btn-cancel {
+color: #fff;
+background-color: #d9534f;
+border-color: #d43f3a;
+}
+.btn-cancel:hover{
+color: #fff;
+background-color: #c9302c;
+border-color: #ac2925;
+}
+.btn-remove:focus{
+outline: none
+}
+
+.btn {
+display: inline-block;
+padding: 6px 12px;
+margin-bottom: 0;
+font-size: 14px;
+font-weight: 400;
+line-height: 1.42857143;
+text-align: center;
+white-space: nowrap;
+vertical-align: middle;
+cursor: pointer;
+background-image: none;
+border: 1px solid transparent;
+border-radius: 4px;
+}
+.addTitle{
+  font-family: 'Rock Salt', cursive;
+}
+.editSide{
+  display: none;
+}
+@media (max-width: 750px){
+	.list-wrap{
+  margin-left: 10%;
+
+}
+}
+@media (max-width: 630px){
+	.list-wrap{
+  margin-left: 0%;
+
+}
+}
